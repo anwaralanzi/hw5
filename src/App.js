@@ -1,12 +1,16 @@
-// import logo from './logo.svg';
+import logo from './logo.svg';
 import './App.css';
 import { ChakraProvider } from '@chakra-ui/react'
 import Nav from './components/Nav';
 import Card from './components/Card';
 import Footer from './components/Footer';
+import Login from './components/login';
+
 function App() {
   return (
     <ChakraProvider>
+<Login></Login> 
+
 
     <div>
   <Nav></Nav>
