@@ -9,6 +9,7 @@ import {
   Switch,
   useColorMode,
   useColorModeValue,
+  
 } from '@chakra-ui/react';
 
 const Login = () => {
@@ -37,9 +38,11 @@ const Login = () => {
           variant="filled"
           mb={6}
         />
-        <Button colorScheme="teal" mb={8}>
-          Log In
+        <Button   colorScheme="teal" mb={8}> 
+        
+          Log In 
         </Button>
+        
         <FormControl display="flex" alignItems="center">
           <FormLabel htmlFor="dark_mode" mb="0">
             Enable Dark Mode?
@@ -53,6 +56,7 @@ const Login = () => {
         </FormControl>
       </Flex>
     </Flex>
+    
   );
 };
 

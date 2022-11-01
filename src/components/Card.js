@@ -10,6 +10,7 @@ import {
     Button,
     useColorModeValue,
   } from '@chakra-ui/react';
+  import Search1 from './search';
   
   export default function SocialProfileWithImage (props) {
 let v;
